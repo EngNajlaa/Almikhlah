@@ -33,6 +33,24 @@ body{
     font-family:'PingAR LT';
     text-align: right;
 }
+.go-up{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--mainColor);
+    border-radius: 50%;
+    position: fixed;
+    bottom:1.5rem;
+    left:1.5rem;
+    line-height: 3.5;
+    text-align: center;
+    display: none;
+   
+
+}
+.go-up i{
+    color: #fff;
+    font-size: 1.5rem;
+}
 
 a{
     color:var(--blackcolor)
