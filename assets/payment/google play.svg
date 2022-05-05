@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="google_play" data-name="google play" transform="translate(-788.013 -896)">
+    <g id="Rectangle_4518" data-name="Rectangle 4518" transform="translate(788.013 896)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="34" height="34" stroke="none"/>
+      <rect x="0.5" y="0.5" width="33" height="33" fill="none"/>
+    </g>
+    <g id="_x31_52-google-play" transform="translate(725.659 866.458)">
+      <g id="Group_11601" data-name="Group 11601" transform="translate(68.451 31.647)">
+        <g id="Group_11599" data-name="Group 11599" transform="translate(16.608 11.366)">
+          <path id="Path_22062" data-name="Path 22062" d="M326.029,204.5a2.394,2.394,0,0,1,.072,3.628l-3.021,1.711-4.477-3.525,4.488-3.457Z" transform="translate(-318.602 -202.852)" fill="#ffc801"/>
+        </g>
+        <path id="Path_22063" data-name="Path 22063" d="M89.559,258.427h0l-4.5-3.505h0l0,0-.016.012L68.451,267.561v.528c0,.7.163,1.441.72,1.7.734.34,1.8-.325,1.8-.325Z" transform="translate(-68.451 -240.095)" fill="#f93647"/>
+        <g id="Group_11600" data-name="Group 11600" transform="translate(0 1.921)">
+          <path id="Path_22064" data-name="Path 22064" d="M85.036,73.5,68.452,86.132V60.588L85.032,73.5Z" transform="translate(-68.452 -60.588)" fill="#00d3ff"/>
+        </g>
+        <path id="Path_22065" data-name="Path 22065" d="M68.452,33.312v.256l16.58,12.908,0,.005.016-.012h0l.007-.005,4.488-3.431S75.113,34.4,70.928,31.913a1.355,1.355,0,0,0-1.141-.212A2.032,2.032,0,0,0,68.452,33.312Z" transform="translate(-68.452 -31.647)" fill="#00ef77"/>
+      </g>
+    </g>
+  </g>
+</svg>

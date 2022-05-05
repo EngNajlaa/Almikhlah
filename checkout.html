@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--- Define the author of a page --->
+    <meta name="author" content="Almikhlah">
+    <!--- Define keywords for search engines --->
+    <meta name="keywords" content="trips,burner,Wild products,camping">
+    <!--- Define a description of your web page  --->
+    <meta name="description" content="A store that sells everything a family needs in trips">
+    <!-- Setting the viewport to make your website look good on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر المخلاة الالكتروني</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/Path 22628.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+       <!-- Start Top Section -->
+       <section class="top-sec d-none d-md-block">
+        <div class="container">
+            <div class="row justify-content-between no-gutters">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        العربية
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">الانجليزية</a>
+                        <a class="dropdown-item" href="#">العربية</a>
+                    </div>
+                </div>
+                <ul class="nav position-relative">
+                    <li class="nav-item top-text">
+                        <a class="nav-link" href="#">من نحن</a>
+                    </li>
+                    <li class="nav-item top-text">
+                        <a class="nav-link" href="#">سياسة الارجاع</a>
+                    </li>
+                    <li class="nav-item top-text">
+                        <a class="nav-link" href="#">المساعدة</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end Top Section -->
+    <!-- start header section -->
+    <header>
+        <nav class=" my-3">
+        <div class="container">
+            <div class="row  justify-content-between align-items-center">
+                <div class="col-sm-2 logo">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="assets/logofavicon.png"  alt="logo-img">
+                    </a>
+                </div>
+                <div class="col-md-6 my-5 my-md-0">
+                    <form>
+                        <input class="form-control my-sm-5 my-md-0" type="search"
+                            placeholder="ابحث عن الالكترونيات، مستلزمات الرحلات" aria-label="Search">
+                        <button type="submit" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+
+                <!--start cart & Profile -->
+                <div class="col-md-4 ">
+                    <div class="row align-items-center justify-content-between">
+                        <a href="mycart.html" class="nav-link">
+                            <img src="assets/mycart-home.svg" class="position-relative mycart-icon" alt="mycart" >
+                               <span class="mr-2">عربة التسوق</span>
+                              <p class="text-center mr-3 font-weight-bold mb-0">250ر.ق</p>
+                              <span class="badge badge-danger badge-pill cart-badge">4</span>
+                           
+                        </a>
+                        <a href="myaccount.html" class="nav-link ">
+                            <img src="assets/profile.svg" class="position-relative profile-icon " alt="myaccount" >
+                               <span class="mr-2">حسابي</span>
+                              <p class="text-center mr-5 mb-0 myaccount-reg">تسجيل دخول/اشتراك</p>
+                           
+                        </a>
+                    </div>
+
+                </div>
+                <!--end cart & Profile -->
+                
+
+            </div>
+        </div>
+        </nav>
+        <!-- start navbar section -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container">
+                <div class="row">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-2 active">
+                                <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="shop.html">تسوق</a>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    التصنيفات
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    المتاجر
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    صفحات أخرى
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+        </nav>
+
+        </div>
+        </div>
+        <!-- end nav section -->
+
+    </header>
+    <!-- end header section -->
+
+
+    </div>
+    </div>
+    <!-- end nav section -->
+    <!-- breadcrumbs -->
+    <section class="shadow-sm">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                    <li class="breadcrumb-item"><a href="mycart.html">عربة التسوق</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">استمرار الشراء</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- breadcrumbs -->
+    <!-- result -->
+    <div class="container">
+        <div class="row no-gutters">
+            <p>سيتم شراء (5) أصناف</p>
+        </div>
+    </div>
+    <!-- result -->
+    <!-- start  -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12">
+                    <div class="content mb-3">
+                        <div class="row justify-content-between align-items-center">
+                            <h5 class="title-content">عنوان التوصيل</h5>
+                            <a href="#" class="nav-link btn btn-primary">
+                                <i class="fa-solid fa-circle-plus ml-2"></i>
+                                إضافة عنوان جديد</a>
+                        </div>
+                    </div>
+
+                    
+                    <!--start payment -->
+                    <div class="content mb-3">
+                        <div class="row">
+                            <h5 class="title-content">طريقة الدفع</h5>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between">
+                            <div class="form-check mt-3 d-flex align-items-center">
+                                <input class="form-check-input " type="radio" name="exampleRadios" id="credit"
+                                value="option1" checked>
+                                <label class="form-check-label px-5 " for="credit">
+                                    بطاقة الائتمان <small>(توصيل مجاني)</small>
+                                </label>
+                            </div>
+                            <div class="row justify-content-between payments flex-sm-column flex-md-row ">
+                                <img src="assets/payment/mastercard.svg" class="ml-2" alt="mastercard">
+                                <img src="assets/payment/paypal.svg" class="ml-2" alt="paypal">
+                                <img src="assets/payment/visa.svg" class="ml-2" alt="visa">
+                                <img src="assets/payment/american.svg" class="ml-2" alt="american">
+                            </div>
+                            
+                        </div>
+                        <div class="form-check my-4 d-flex align-items-center">
+                            <input class="form-check-input " type="radio" name="exampleRadios" id="wallet"
+                            value="option2">
+                            <label class="form-check-label px-5" for="wallet">
+                                الدفع من خلال مخلاتي <small>(رصيدك الحالي <strong>25 ر.ق</strong></small>
+                            </label>
+                        </div>
+                        <div class="form-check my-4 d-flex align-items-center">
+                            <input class="form-check-input " type="radio" name="exampleRadios" id="wallet"
+                            value="option3">
+                            <label class="form-check-label px-5" for="wallet">
+                                الدفع عند التسليم
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!--end payment -->
+                         
+                    <!--start order -->
+                    <div class="content mb-3">
+                        <div class="row">
+                            <h5 class="title-content">الطلب</h5>
+                        </div>
+                        <div class="table-responsive-sm table-responsive">
+                        <table class="table">
+                            <thead>
+                              <tr>
+
+                                <th scope="col">المنتج</th>
+                                <th scope="col">سعر المنتج</th>
+                                <th scope="col">الكمية</th>
+                                <th scope="col">الإجمالي(الريال)</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr scope="row">
+                                <td class="item d-flex justify-content-start align-items-center" >                
+                                    <img src="assets/1_ozsc-5v.jpg" alt="almikhlah-items" >
+                                    <div class="mx-2">
+                                        <h4 class="title-item">سترة نجات حمراء 3XL</h4>
+                                   
+                                        <p class="color-items position-relative">أصفر اللون</p>
+                                      
+                                        <p class="size-item" >الحجم 120x 130 سم</p>
+                                    </div> 
+                                </td>
+                                
+                                <td class="text-center"><strong> 350 ر.ق</strong></td>
+                                <td  class="text-center"> <span  class="quantity">15</span>  </td>
+                                <td  class="text-center"><strong class="total-price"> 350 ر.ق</strong></td>
+                              </tr>
+                              
+                              <tr scope="row">
+                                <td class="item d-flex justify-content-start align-items-center" >                
+                                    <img src="assets/1_ozsc-5v.jpg" alt="almikhlah-items" >
+                                    <div class="mx-2">
+                                        <h4 class="title-item">سترة نجات حمراء 3XL</h4>
+                                   
+                                        <p class="color-items position-relative">أصفر اللون</p>
+                                      
+                                        <p class="size-item" >الحجم 120x 130 سم</p>
+                                    </div> 
+                                </td>
+                                
+                                <td class="text-center"><strong> 350 ر.ق</strong></td>
+                                <td  class="text-center"> <span  class="quantity">15</span>  </td>
+                                <td  class="text-center"><strong class="total-price"> 350 ر.ق</strong></td>
+                              </tr>
+                              
+                              <tr scope="row">
+                                <td class="item d-flex justify-content-start align-items-center" >                
+                                    <img src="assets/1_ozsc-5v.jpg" alt="almikhlah-items" >
+                                    <div class="mx-2">
+                                        <h4 class="title-item">سترة نجات حمراء 3XL</h4>
+                                   
+                                        <p class="color-items position-relative">أصفر اللون</p>
+                                      
+                                        <p class="size-item" >الحجم 120x 130 سم</p>
+                                    </div> 
+                                </td>
+                                
+                                <td class="text-center"><strong> 350 ر.ق</strong></td>
+                                <td  class="text-center"> <span  class="quantity">15</span>  </td>
+                                <td  class="text-center"><strong class="total-price"> 350 ر.ق</strong></td>
+                              </tr>
+                              
+
+                              <tr scope="row">
+                                <td class="item d-flex justify-content-start align-items-center" >                
+                                    <img src="assets/1_ozsc-5v.jpg" alt="almikhlah-items" >
+                                    <div class="mx-2">
+                                        <h4 class="title-item">سترة نجات حمراء 3XL</h4>
+                                   
+                                        <p class="color-items position-relative">أصفر اللون</p>
+                                      
+                                        <p class="size-item" >الحجم 120x 130 سم</p>
+                                    </div> 
+                                </td>
+                                
+                                <td class="text-center"><strong> 350 ر.ق</strong></td>
+                                <td  class="text-center"> <span  class="quantity">15</span>  </td>
+                                <td  class="text-center"><strong class="total-price"> 350 ر.ق</strong></td>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                        </div>
+                                                            
+                    </div>
+                    <!--end order -->
+
+                </div>
+
+               <!-- start Summary price -->
+            <div class="col-md-3 col-sm-12">
+                <div class="content  mb-3">
+                    <div class="row justify-content-between align-items-center">
+                        <h5 class="title-content">إجمالي الطلب</h5>
+                    </div>
+                    <form>
+                        <div class="row justify-content-between">
+                            <input type="text" class="form-control code" id="inputcode" placeholder="أدخل الكود">
+                            <button href="#" class="apply" disabled>تطبيق</button>
+                        </div>
+                    </form>
+                    <div class="price-item">
+                        <div class="row align-items-center justify-content-between my-3">
+                            <span>السعر <small> (3) أصناف </small></span>
+                            <!-- <div class="divider col-5 col-md-3"></div> -->
+                            <h5 class="price-sumaary">250 ر.ق</h5>
+                        </div>
+                    </div>
+                    <div class="delivery-price">
+                        <div class="row align-items-center justify-content-between my-3">
+                            <span> رسوم التوصيل</span>
+                            <!-- <div class="divider col-5 col-md-3"></div> -->
+                            <h5 class="delivery">250 ر.ق</h5>
+                        </div>
+                    </div>
+                    <div class="sale-item">
+                        <div class="row align-items-center justify-content-between my-3">
+                            <span> قمية الخصم</span>
+                            <!-- <div class="divider col-5 col-md-3"></div> -->
+                            <h5 class="sale">250 ر.ق</h5>
+                        </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="total-summary">
+                        <div class="row align-items-center justify-content-between my-3">
+                            <span class="font-weight-bold"> الإجمالي</span>
+                            <!-- <div class="divider col-5 col-md-3"></div> -->
+                            <h5 class="total mb-0">35.000 ر.ق</h5>
+
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link btn btn-primary">
+                        إرسال الطلب
+                    </a>
+                </div>
+       <!-- end Summary price -->
+
+            </div>
+
+        </div>
+    </section>
+    <!-- start  -->
+
+
+
+
+    <!-- start feature section -->
+    <section class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row align-items-center ">
+                        <div class="col-md-4 col-4">
+                            <img class="img-fluid" src="assets/feature/delivery icon.svg" alt="delivery icon">
+                        </div>
+                        <div class="col-md-8 col-6 px-0 ">
+                            <h6 class="feature-title">خدمة التوصيل</h6>
+                            <p class="feature-detail text-justify">يدعم الموقع خدمة التوصيل مجانا لمن يشترى من بطاقة
+                                الائتمان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 col-4">
+                            <img class="img-fluid" src="assets/feature/support icon.svg" alt="support icon">
+                        </div>
+                        <div class="col-md-8 col-6 px-0">
+                            <h6 class="feature-title">خدمة الدعم السريع</h6>
+                            <p class="feature-detail px-0">الدعم والمساعدة على مدار الساعة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row align-items-center ">
+                        <div class="col-md-4 col-4">
+                            <img class="img-fluid" src="assets/feature/return icon.svg" alt="return icon">
+                        </div>
+                        <div class="col-md-8 col-6 px-0">
+                            <h6 class="feature-title">سياسة الارجاع</h6>
+                            <p class="feature-detail ">يمكنك ارجاع المنتج في غضون (3) أيام</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end feature section -->
+
+    <!-- start footer section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <img class="w-25" src="assets/logo.svg" alt="Almikhlah logo">
+                    <p class=" bio mt-3">شركة مختصة في مجال التسوق الإلكتروني وخدمات التوصيل في قطر. </p>
+                    <ul class=" social nav justify-content-center my-4">
+                        <li class="nav-item mx-3">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="about">
+                        <h5 class="title-footer ml-3">تواصل معنا</h5>
+                        <div class="my-1">
+                            <i class="fas fa-map-marker-alt ml-2"></i>
+                            <span>قطر , الدوحة</span>
+                        </div>
+
+                        <div class="my-2 d-flex ">
+                            <i class="fa-solid fa-phone-flip ml-2"></i>
+                            <div class="call">
+                                <p class="mb-0"> 917-722-7425 1+</p>
+                                <p class="mb-0"> 917-722-7425 1+</p>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <i class="fa-solid fa-envelope ml-2"></i>
+                            <span>sales@example.com</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="customer-service">
+                        <h5 class="title-footer ml-3">خدمة العملاء</h5>
+                        <div class="my-2">
+                            <i class="fa-solid fa-chevron-left ml-2"></i>
+                            <span>سياسة الارجاع</span>
+                        </div>
+
+                        <div class="my-2">
+                            <i class="fa-solid fa-chevron-left ml-2"></i>
+                            <span> الأسئلة الشائعة</span>
+                        </div>
+                        <div class="my-2">
+                            <i class="fa-solid fa-chevron-left ml-2"></i>
+                            <span>من نحن</span>
+                        </div>
+                        <div class="my-2">
+                            <i class="fa-solid fa-chevron-left ml-2"></i>
+                            <span>سياسة الخصوصية</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="email">
+                        <h5 class="title-footer ml-3">الاشتراك بالقائمة البريدية</h5>
+                        <p class="subscribe">
+                            ليصلك كل ما هو جديد من المخلاة يمكنك الاشتراك بالقائمة البريدية
+                        </p>
+                        <form action="">
+                            <div class="form-row">
+                                <div>
+                                    <input type="text" class="form-control" id="inputEmail"
+                                        placeholder="أدخل البريد الالكتروني">
+                                </div>
+                                <button type="submit" class="btn btn-primary mr-3">اشتراك</button>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+           
+        </div>
+        <section class="py-3 copyright-sec">
+            <div class="container">
+                <div class="row justify-content-between ">
+                    <p class="m-0">جميع حقوق المخلاة محفوظة&copy; 2022 </p>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            العربية
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">الانجليزية</a>
+                            <a class="dropdown-item" href="#">العربية</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </footer>
+
+    <!-- end footer section -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

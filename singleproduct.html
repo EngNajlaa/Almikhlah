@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--- Define the author of a page --->
+    <meta name="author" content="Almikhlah">
+    <!--- Define keywords for search engines --->
+    <meta name="keywords" content="trips,burner,Wild products,camping">
+    <!--- Define a description of your web page  --->
+    <meta name="description" content="A store that sells everything a family needs in trips">
+    <!-- Setting the viewport to make your website look good on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر المخلاة الالكتروني</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/Path 22628.png">
+    <!-- <link rel="icon" type="image/png" sizes="48x48" href="assets/white logo.svg"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/singleproduct.css">
+
+</head>
+
+<body>
+      <!-- Start Top Section -->
+      <section class="top-sec d-none d-md-block">
+        <div class="container">
+            <div class="row justify-content-between no-gutters">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        العربية
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">الانجليزية</a>
+                        <a class="dropdown-item" href="#">العربية</a>
+                    </div>
+                </div>
+                <ul class="nav position-relative">
+                    <li class="nav-item top-text">
+                        <a class="nav-link" href="#">من نحن</a>
+                    </li>
+                    <li class="nav-item top-text">
+                        <a class="nav-link" href="#">سياسة الارجاع</a>
+                    </li>
+                    <li class="nav-item top-text">
+                        <a class="nav-link" href="#">المساعدة</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end Top Section -->
+    <!-- start header section -->
+    <header>
+        <nav class=" my-3">
+        <div class="container">
+            <div class="row  justify-content-between align-items-center">
+                <div class="col-sm-2 logo">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="assets/logofavicon.png"  alt="logo-img">
+                    </a>
+                </div>
+                <div class="col-md-6 my-5 my-md-0">
+                    <form>
+                        <input class="form-control my-sm-5 my-md-0" type="search"
+                            placeholder="ابحث عن الالكترونيات، مستلزمات الرحلات" aria-label="Search">
+                        <button type="submit" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+
+                <!--start cart & Profile -->
+                <div class="col-md-4 ">
+                    <div class="row align-items-center justify-content-between">
+                        <a href="mycart.html" class="nav-link">
+                            <img src="assets/mycart-home.svg" class="position-relative mycart-icon" alt="mycart" >
+                               <span class="mr-2">عربة التسوق</span>
+                              <p class="text-center mr-3 font-weight-bold mb-0">250ر.ق</p>
+                              <span class="badge badge-danger badge-pill cart-badge">4</span>
+                           
+                        </a>
+                        <a href="myaccount.html" class="nav-link ">
+                            <img src="assets/profile.svg" class="position-relative profile-icon " alt="myaccount" >
+                               <span class="mr-2">حسابي</span>
+                              <p class="text-center mr-5 mb-0 myaccount-reg">تسجيل دخول/اشتراك</p>
+                           
+                        </a>
+                    </div>
+
+                </div>
+                <!--end cart & Profile -->
+                
+
+            </div>
+        </div>
+        </nav>
+        <!-- start navbar section -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container">
+                <div class="row">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-2 active">
+                                <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="shop.html">تسوق</a>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    التصنيفات
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    المتاجر
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    صفحات أخرى
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+        </nav>
+
+        </div>
+        </div>
+        <!-- end nav section -->
+
+    </header>
+    <!-- end header section -->
+
+
+    <!-- breadcrumbs -->
+    <section class="shadow-sm">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">مستلزمات الرحلات</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- breadcrumbs -->
+    <!-- Start Product Section -->
+    <section class="product ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 images">
+                    <img src="./assets/1_ozsc-5v.jpg" alt="item">
+                </div>
+                <div class="col-md-6 mt-sm-3 mt-md-0">
+                    <div class="row no-gutters justify-content-between">
+                        <h5 class="store-name">متجر المخلاة</h5>
+                        <div class="d-flex">
+                            <a href="#" class="nav-links like-icon mx-4 shadow-sm">
+                                <i class="fa-solid fa-heart"></i></a>
+                            <a href="#" class="nav-links share-icon shadow-sm">
+                                <i class="fa-solid fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="title-product"> سترة نجات حمراء 3XL </h4>
+                    <div class="d-flex my-3">
+                        <p class="item-price my-0">250.0 ر.ق</p>
+                        <del class="sale-price  mr-3">300.0 ريال</del>
+                    </div>
+                    <div class="size my-4">
+                        <h4 class="size-title ">الحجم (9) حجم</h4>
+                        <div class="row flex-sm-column flex-md-row ">
+                            <a href="#" class="nav-links btn size-btn my-2 mx-1">135x120 سم</a>
+                            <a href="#" class="nav-links btn size-btn my-2 mx-1">12x12 سم</a>
+                            <a href="#" class="nav-links btn size-btn my-2 mx-1">135x120 سم</a>
+                            <a href="#" class="nav-links btn size-btn my-2 mx-1">135x120 سم</a>
+                            <a href="#" class="nav-links btn size-btn my-2 mx-1">135x120 سم</a>
+                            <a href="#" class="nav-links btn size-btn my-2 mx-1">15x25 سم</a>
+                            <a href="#" class="nav-links btn size-btn my-2 mx-1">135x120 سم</a>
+                            <a href="#" class="nav-links btn size-btn my-2 mx-1">135x120 سم</a>
+                            <a href="#" class="nav-links btn size-btn my-2 mx-1">135x120 سم</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="avaliable-on-stock">متوفر في المخزن</h4>
+                        <h4 class="quantity  my-2 ">الكمية <span>(متبقي منه 20 قطعه) </span></h4>
+                        <div class="d-flex">
+                            <!-- <div class="btn-group mr-2" >
+                                <button type="button" class="btn btn-secondary">+</button>
+                                <button type="button" class="btn btn-secondary">6</button>
+                                <button type="button" class="btn btn-secondary">-</button>
+                              </div> -->
+                            <a href="#" class="nav-links btn btn-primary  mr-4">
+                                <img src="./assets/singleproduct/cart.svg" class="w-25" alt="add cart">
+                                إضافة للعربة
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- End Product Section -->
+
+    <!--start decription product section -->
+    <section class="description my-3" id="description">
+        <div class="container">
+            <div class="row ">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <div class="dropdown-divider"></div>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 active" id="pills-description-tab" data-toggle="pill"
+                            href="#pills-description" role="tab" aria-controls="pills-description"
+                            aria-selected="true">وصف المنتج</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" id="pills-specification-tab" data-toggle="pill"
+                            href="#pills-specification" role="tab" aria-controls="pills-specification"
+                            aria-selected="false">مواصفات المنتج</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" id="pills-video-tab" data-toggle="pill" href="#pills-video" role="tab"
+                            aria-controls="pills-video" aria-selected="false">عرض المنتج كفيديو</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-description" role="tabpanel"
+                        aria-labelledby="pills-description-tab">
+
+
+                    </div>
+                    <div class="tab-pane fade border " id="pills-specification" role="tabpanel"
+                        aria-labelledby="pills-specification-tab">
+                        <table class="table  mt-4">
+                            <tbody>
+                                <tr>
+                                    <td>Technicals</td>
+                                    <td>Printed </td>
+                                    <td>printing methods</td>
+                                    <td>heat-transfer printing</td>
+                                </tr>
+                                <tr>
+                                    <td>place of origin</td>
+                                    <td>china</td>
+                                    <td> brand name </td>
+                                    <td> hox-print </td>
+                                </tr>
+                                <tr>
+                                    <td>model number</td>
+                                    <td>apt001-7</td>
+                                    <td> feature </td>
+                                    <td> anti-shrink, anti-pilling, sustainable </td>
+                                </tr>
+                                <tr>
+                                    <td>collar</td>
+                                    <td>o-neck</td>
+                                    <td> fabric weight </td>
+                                    <td> 200 grams </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+
+
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
+                        <video width="320" height="240" controls>
+                            <source src="movie.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!--end decription product section -->
+    <!-- Start Ads section -->
+    <section class="ads">
+        <div class="container">
+            <div class="row">
+                <div class=" col-12">
+                    <a href="#"><img src="./assets/singleproduct/banner.png" class="w-100" alt="ads"></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Ads section -->
+    <!-- start similar-product section -->
+    <section class="similar-product my-3">
+        <div class="container">
+            <div class="row no-gutters justify-content-between ">
+                <h2 class="title-sec">منتجات مشابهه</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="singleproduct.html" class="view-items">
+                        <div class="card hover-items my-3 border-0 best-seller-item">
+                            <img class="card-img-top" src="assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                            <div class="item-curv">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">متجر المخلاة</h5>
+                                <p class="card-text"> سترة نجات حمراء 3XL </p>
+                                <div class="card-footer d-flex">
+                                    <p class="item-price my-0">250.0 ر.ق</p>
+                                    <del class="sale-price  mr-3">300.0 ريال</del>
+                                </div>
+                            </div>
+
+                        </div>
+                  
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i></a>  </a>
+                </div>
+
+               <div class="col-md-3 col-sm-6">
+                    <a href="singleproduct.html" class="view-items">
+                        <div class="card hover-items my-3 border-0 best-seller-item">
+                            <img class="card-img-top" src="assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                            <div class="item-curv">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">متجر المخلاة</h5>
+                                <p class="card-text"> سترة نجات حمراء 3XL </p>
+                                <div class="card-footer d-flex">
+                                    <p class="item-price my-0">250.0 ر.ق</p>
+                                    <del class="sale-price  mr-3">300.0 ريال</del>
+                                </div>
+                            </div>
+
+                        </div>
+                  
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i></a>  </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="singleproduct.html" class="view-items">
+                        <div class="card hover-items my-3 border-0 best-seller-item">
+                            <img class="card-img-top" src="assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                            <div class="item-curv">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">متجر المخلاة</h5>
+                                <p class="card-text"> سترة نجات حمراء 3XL </p>
+                                <div class="card-footer d-flex">
+                                    <p class="item-price my-0">250.0 ر.ق</p>
+                                    <del class="sale-price  mr-3">300.0 ريال</del>
+                                </div>
+                            </div>
+
+                        </div>
+                  
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i></a>  </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="singleproduct.html" class="view-items">
+                        <div class="card hover-items my-3 border-0 best-seller-item">
+                            <img class="card-img-top" src="assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                            <div class="item-curv">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">متجر المخلاة</h5>
+                                <p class="card-text"> سترة نجات حمراء 3XL </p>
+                                <div class="card-footer d-flex">
+                                    <p class="item-price my-0">250.0 ر.ق</p>
+                                    <del class="sale-price  mr-3">300.0 ريال</del>
+                                </div>
+                            </div>
+
+                        </div>
+                  
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i></a>  </a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- end similar-product section -->
+
+    <!-- start like-product section -->
+    <section class="like-product my-3">
+        <div class="container">
+            <div class="row no-gutters justify-content-between ">
+                <h2 class="title-sec">منتجات قد تعجبك أيضاً</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 position-relative">
+                    <div class="card  d-flex my-3 px-2 border-0 like-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <div class="contain-img-item ">
+                                    <img src="./assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">متجر المخلاة</h5>
+                                    <p class="card-text mt-3"> سترة نجات حمراء 3XL </p>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <p class="item-price my-0">250.0 ر.ق</p>
+                                        <del class="sale-price  mr-3">300.0 ريال</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 position-relative">
+                    <div class="card  d-flex my-3 px-2 border-0 like-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <div class="contain-img-item ">
+                                    <img src="./assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">متجر المخلاة</h5>
+                                    <p class="card-text mt-3"> سترة نجات حمراء 3XL </p>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <p class="item-price my-0">250.0 ر.ق</p>
+                                        <del class="sale-price  mr-3">300.0 ريال</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 position-relative">
+                    <div class="card  d-flex my-3 px-2 border-0 like-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <div class="contain-img-item ">
+                                    <img src="./assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">متجر المخلاة</h5>
+                                    <p class="card-text mt-3"> سترة نجات حمراء 3XL </p>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <p class="item-price my-0">250.0 ر.ق</p>
+                                        <del class="sale-price  mr-3">300.0 ريال</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 position-relative">
+                    <div class="card  d-flex my-3 px-2 border-0 like-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <div class="contain-img-item ">
+                                    <img src="./assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">متجر المخلاة</h5>
+                                    <p class="card-text mt-3"> سترة نجات حمراء 3XL </p>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <p class="item-price my-0">250.0 ر.ق</p>
+                                        <del class="sale-price  mr-3">300.0 ريال</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 position-relative">
+                    <div class="card  d-flex my-3 px-2 border-0 like-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <div class="contain-img-item ">
+                                    <img src="./assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">متجر المخلاة</h5>
+                                    <p class="card-text mt-3"> سترة نجات حمراء 3XL </p>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <p class="item-price my-0">250.0 ر.ق</p>
+                                        <del class="sale-price  mr-3">300.0 ريال</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 position-relative">
+                    <div class="card  d-flex my-3 px-2 border-0 like-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <div class="contain-img-item ">
+                                    <img src="./assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">متجر المخلاة</h5>
+                                    <p class="card-text mt-3"> سترة نجات حمراء 3XL </p>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <p class="item-price my-0">250.0 ر.ق</p>
+                                        <del class="sale-price  mr-3">300.0 ريال</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="nav-links wishlist-icon shadow-sm">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- end like-product section -->
+
+
+    <!-- start feature section -->
+    <section class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row align-items-center ">
+                        <div class="col-md-4 col-4">
+                            <img class="img-fluid" src="assets/feature/delivery icon.svg" alt="delivery icon">
+                        </div>
+                        <div class="col-md-8 col-6 px-0 ">
+                            <h6 class="feature-title">خدمة التوصيل</h6>
+                            <p class="feature-detail text-justify">يدعم الموقع خدمة التوصيل مجانا لمن يشترى من بطاقة
+                                الائتمان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 col-4">
+                            <img class="img-fluid" src="assets/feature/support icon.svg" alt="support icon">
+                        </div>
+                        <div class="col-md-8 col-6 px-0">
+                            <h6 class="feature-title">خدمة الدعم السريع</h6>
+                            <p class="feature-detail px-0">الدعم والمساعدة على مدار الساعة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row align-items-center ">
+                        <div class="col-md-4 col-4">
+                            <img class="img-fluid" src="assets/feature/return icon.svg" alt="return icon">
+                        </div>
+                        <div class="col-md-8 col-6 px-0">
+                            <h6 class="feature-title">سياسة الارجاع</h6>
+                            <p class="feature-detail ">يمكنك ارجاع المنتج في غضون (3) أيام</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end feature section -->
+
+    <!-- start footer section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <img class="w-25" src="assets/logo.svg" alt="Almikhlah logo">
+                    <p class=" bio mt-3">شركة مختصة في مجال التسوق الإلكتروني وخدمات التوصيل في قطر. </p>
+                    <ul class=" social nav justify-content-center my-4">
+                        <li class="nav-item mx-3">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="about">
+                        <h5 class="title-footer ml-3">تواصل معنا</h5>
+                        <div class="my-1">
+                            <i class="fas fa-map-marker-alt ml-2"></i>
+                            <span>قطر , الدوحة</span>
+                        </div>
+
+                        <div class="my-2 d-flex ">
+                            <i class="fa-solid fa-phone-flip ml-2"></i>
+                            <div class="call">
+                                <p class="mb-0"> 917-722-7425 1+</p>
+                                <p class="mb-0"> 917-722-7425 1+</p>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <i class="fa-solid fa-envelope ml-2"></i>
+                            <span>sales@example.com</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="customer-service">
+                        <h5 class="title-footer ml-3">خدمة العملاء</h5>
+                        <div class="my-2">
+                            <i class="fa-solid fa-chevron-left ml-2"></i>
+                            <span>سياسة الارجاع</span>
+                        </div>
+
+                        <div class="my-2">
+                            <i class="fa-solid fa-chevron-left ml-2"></i>
+                            <span> الأسئلة الشائعة</span>
+                        </div>
+                        <div class="my-2">
+                            <i class="fa-solid fa-chevron-left ml-2"></i>
+                            <span>من نحن</span>
+                        </div>
+                        <div class="my-2">
+                            <i class="fa-solid fa-chevron-left ml-2"></i>
+                            <span>سياسة الخصوصية</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="email">
+                        <h5 class="title-footer ml-3">الاشتراك بالقائمة البريدية</h5>
+                        <p class="subscribe">
+                            ليصلك كل ما هو جديد من المخلاة يمكنك الاشتراك بالقائمة البريدية
+                        </p>
+                        <form action="">
+                            <div class="form-row">
+                                <div>
+                                    <input type="text" class="form-control" id="inputEmail"
+                                        placeholder="أدخل البريد الالكتروني">
+                                </div>
+                                <button type="submit" class="btn btn-primary mr-3">اشتراك</button>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+           
+        </div>
+        <section class="py-3 copyright-sec">
+            <div class="container">
+                <div class="row justify-content-between ">
+                    <p class="m-0">جميع حقوق المخلاة محفوظة&copy; 2022 </p>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            العربية
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">الانجليزية</a>
+                            <a class="dropdown-item" href="#">العربية</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </footer>
+
+    <!-- end footer section -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
