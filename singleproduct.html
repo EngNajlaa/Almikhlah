@@ -23,8 +23,8 @@
 </head>
 
 <body>
-      <!-- Start Top Section -->
-      <section class="top-sec d-none d-md-block">
+    <!-- Start Top Section -->
+    <section class="top-sec d-none d-md-block">
         <div class="container">
             <div class="row justify-content-between no-gutters">
                 <div class="dropdown">
@@ -59,45 +59,46 @@
     <!-- start header section -->
     <header>
         <nav class=" my-3">
-        <div class="container">
-            <div class="row  justify-content-between align-items-center">
-                <div class="col-sm-2 logo">
-                    <a href="index.html" class="navbar-brand">
-                        <img src="assets/logofavicon.png"  alt="logo-img">
-                    </a>
-                </div>
-                <div class="col-md-6 my-5 my-md-0">
-                    <form>
-                        <input class="form-control my-sm-5 my-md-0" type="search"
-                            placeholder="ابحث عن الالكترونيات، مستلزمات الرحلات" aria-label="Search">
-                        <button type="submit" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
-                </div>
-
-                <!--start cart & Profile -->
-                <div class="col-md-4 ">
-                    <div class="row align-items-center justify-content-between">
-                        <a href="mycart.html" class="nav-link">
-                            <img src="assets/mycart-home.svg" class="position-relative mycart-icon" alt="mycart" >
-                               <span class="mr-2">عربة التسوق</span>
-                              <p class="text-center mr-3 font-weight-bold mb-0">250ر.ق</p>
-                              <span class="badge badge-danger badge-pill cart-badge">4</span>
-                           
-                        </a>
-                        <a href="myaccount.html" class="nav-link ">
-                            <img src="assets/profile.svg" class="position-relative profile-icon " alt="myaccount" >
-                               <span class="mr-2">حسابي</span>
-                              <p class="text-center mr-5 mb-0 myaccount-reg">تسجيل دخول/اشتراك</p>
-                           
+            <div class="container">
+                <div class="row  justify-content-between align-items-center">
+                    <div class="col-sm-2 logo">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="assets/logofavicon.png" alt="logo-img">
                         </a>
                     </div>
+                    <div class="col-md-6 my-5 my-md-0">
+                        <form>
+                            <input class="form-control my-sm-5 my-md-0" type="search"
+                                placeholder="ابحث عن الالكترونيات، مستلزمات الرحلات" aria-label="Search">
+                            <button type="submit" class="search-btn"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+
+                    <!--start cart & Profile -->
+                    <div class="col-md-4 ">
+                        <div class="row align-items-center justify-content-between">
+                            <a href="mycart.html" class="nav-link">
+                                <img src="assets/mycart-home.svg" class="position-relative mycart-icon" alt="mycart">
+                                <span class="mr-2">عربة التسوق</span>
+                                <p class="text-center mr-3 font-weight-bold mb-0">250ر.ق</p>
+                                <span class="badge badge-danger badge-pill cart-badge">4</span>
+
+                            </a>
+                            <a href="myaccount.html" class="nav-link ">
+                                <img src="assets/profile.svg" class="position-relative profile-icon " alt="myaccount">
+                                <span class="mr-2">حسابي</span>
+                                <p class="text-center mr-5 mb-0 myaccount-reg">تسجيل دخول/اشتراك</p>
+
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--end cart & Profile -->
+
 
                 </div>
-                <!--end cart & Profile -->
-                
-
             </div>
-        </div>
         </nav>
         <!-- start navbar section -->
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
@@ -217,15 +218,60 @@
                                 <button type="button" class="btn btn-secondary">6</button>
                                 <button type="button" class="btn btn-secondary">-</button>
                               </div> -->
-                            <a href="#" class="nav-links btn btn-primary  mr-4">
+                            <div class="d-flex justify-content-between quantity-input">
+                                <button class="increase-quantity  shadow-sm" id="increase"> +</button>
+                                <input type="number" id="demoInput1" min="0" max="110" value="0">
+                                <button class="decrease-quantity  shadow-sm" id="decrease">-</button>
+                            </div>
+                            <a href="#" class="nav-links btn btn-primary  mr-4" data-toggle="modal"
+                                data-target="#staticBackdrop">
                                 <img src="./assets/singleproduct/cart.svg" class="w-25" alt="add cart">
                                 إضافة للعربة
                             </a>
                         </div>
                     </div>
 
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">تم اضافة المنتج لعربة التسوق
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row border rounded">
+                                            <div class="col-md-4 image">
+
+                                                <img src="assets/1_ozsc-5v.jpg" alt="almikhlah-items">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <h3>AFREEN AZBA BAG brown color</h3>
+                                                <h2>250 ر.ق</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">متابعة
+                                            التسوق</button>
+                                        <button type="button" class="btn btn-primary">إتمام الشراء</button>
+                                    </div>
+                                    <div class="row">
+
+                                    </div>
 
 
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -239,7 +285,7 @@
     <section class="description my-3" id="description">
         <div class="container">
             <div class="row ">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                     <div class="dropdown-divider"></div>
                     <li class="nav-item">
                         <a class="nav-link mx-3 active" id="pills-description-tab" data-toggle="pill"
@@ -264,48 +310,100 @@
                     </div>
                     <div class="tab-pane fade border " id="pills-specification" role="tabpanel"
                         aria-labelledby="pills-specification-tab">
-                        <table class="table  mt-4">
-                            <tbody>
-                                <tr>
-                                    <td>Technicals</td>
-                                    <td>Printed </td>
-                                    <td>printing methods</td>
-                                    <td>heat-transfer printing</td>
-                                </tr>
-                                <tr>
-                                    <td>place of origin</td>
-                                    <td>china</td>
-                                    <td> brand name </td>
-                                    <td> hox-print </td>
-                                </tr>
-                                <tr>
-                                    <td>model number</td>
-                                    <td>apt001-7</td>
-                                    <td> feature </td>
-                                    <td> anti-shrink, anti-pilling, sustainable </td>
-                                </tr>
-                                <tr>
-                                    <td>collar</td>
-                                    <td>o-neck</td>
-                                    <td> fabric weight </td>
-                                    <td> 200 grams </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-
-
+                       
 
 
                     </div>
                     <div class="tab-pane fade" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
-                        <video width="320" height="240" controls>
+                        <video width="320" height="240" class="mt-4" controls> 
                             <source src="movie.mp4" type="video/mp4">
                             <source src="movie.ogg" type="video/ogg">
                             Your browser does not support the video tag.
                         </video>
                     </div>
+                </div> -->
+
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="true">وصف المنتج</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">مواصفات المنتج</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">عرض المنتج كفيديو</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                     
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <table class="table ">
+                            <!-- <thead>
+                                <tr>
+                                  <th scope="col">#</th>
+                                  <th scope="col">First</th>
+                                  <th scope="col">Last</th>
+                                  <th scope="col">Handle</th>
+                                </tr>
+                              </thead> -->
+                              <tbody>
+                                <tr>
+                                  <th scope="row">رقم الموديل</th>
+                                  <td>NJ25635</td>
+                                  <th scope="row">الأحجام</th>
+                                  <td>أحجام (3)</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">بلد المنشأ</th>
+                                  <td>فرنسا</td>
+                                  <th scope="row">حالة المنتج</th>
+                                  <td> جيدة</td>
+                                 
+                                </tr>
+                                <tr>
+                                  <th scope="row">المادة المصنعة</th>
+                                  <td>اسم المادة</td>
+                                  <th scope="row">الخامة</th>
+                                  <td> اسم الخامة</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">وزن المنتج</th>
+                                    <td>300 جرام</td>
+                                    <th scope="row"></th>
+                                  <td> </td>
+                                  </tr>
+                              </tbody>
+                        </table>
+                       <p>Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor
+                        aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit
+                        laborum veniam eu veniam. Eiusmod minim exercitation fugiat irure ex
+                        labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit
+                        aliquip nostrud.</p> 
+                    
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gFObo1K-fk0" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    
+                        <p>Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor
+                            aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit
+                            laborum veniam eu veniam. Eiusmod minim exercitation fugiat irure ex
+                            labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit
+                            aliquip nostrud.</p> 
+
+                    </div>
                 </div>
+
+
+
             </div>
         </div>
 
@@ -347,30 +445,10 @@
                             </div>
 
                         </div>
-                  
-                    <a href="#" class="nav-links wishlist-icon shadow-sm">
-                        <i class="fa-solid fa-heart"></i></a>  </a>
-                </div>
 
-               <div class="col-md-3 col-sm-6">
-                    <a href="singleproduct.html" class="view-items">
-                        <div class="card hover-items my-3 border-0 best-seller-item">
-                            <img class="card-img-top" src="assets/1_ozsc-5v.jpg" alt="Almikhlah items">
-                            <div class="item-curv">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">متجر المخلاة</h5>
-                                <p class="card-text"> سترة نجات حمراء 3XL </p>
-                                <div class="card-footer d-flex">
-                                    <p class="item-price my-0">250.0 ر.ق</p>
-                                    <del class="sale-price  mr-3">300.0 ريال</del>
-                                </div>
-                            </div>
-
-                        </div>
-                  
-                    <a href="#" class="nav-links wishlist-icon shadow-sm">
-                        <i class="fa-solid fa-heart"></i></a>  </a>
+                        <a href="#" class="nav-links wishlist-icon shadow-sm">
+                            <i class="fa-solid fa-heart"></i></a>
+                    </a>
                 </div>
 
                 <div class="col-md-3 col-sm-6">
@@ -389,9 +467,10 @@
                             </div>
 
                         </div>
-                  
-                    <a href="#" class="nav-links wishlist-icon shadow-sm">
-                        <i class="fa-solid fa-heart"></i></a>  </a>
+
+                        <a href="#" class="nav-links wishlist-icon shadow-sm">
+                            <i class="fa-solid fa-heart"></i></a>
+                    </a>
                 </div>
 
                 <div class="col-md-3 col-sm-6">
@@ -410,9 +489,32 @@
                             </div>
 
                         </div>
-                  
-                    <a href="#" class="nav-links wishlist-icon shadow-sm">
-                        <i class="fa-solid fa-heart"></i></a>  </a>
+
+                        <a href="#" class="nav-links wishlist-icon shadow-sm">
+                            <i class="fa-solid fa-heart"></i></a>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="singleproduct.html" class="view-items">
+                        <div class="card hover-items my-3 border-0 best-seller-item">
+                            <img class="card-img-top" src="assets/1_ozsc-5v.jpg" alt="Almikhlah items">
+                            <div class="item-curv">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">متجر المخلاة</h5>
+                                <p class="card-text"> سترة نجات حمراء 3XL </p>
+                                <div class="card-footer d-flex">
+                                    <p class="item-price my-0">250.0 ر.ق</p>
+                                    <del class="sale-price  mr-3">300.0 ريال</del>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="nav-links wishlist-icon shadow-sm">
+                            <i class="fa-solid fa-heart"></i></a>
+                    </a>
                 </div>
 
             </div>
@@ -740,7 +842,7 @@
 
                 </div>
             </div>
-           
+
         </div>
         <section class="py-3 copyright-sec">
             <div class="container">
